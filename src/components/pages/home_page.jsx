@@ -29,34 +29,28 @@ export const Home_page = () => {
             remate={"Equipo?"}
           ></Title_Component>
           <br />
-          <div className=" flex flex-col gap-4 flex-wrap md:flex-row">
+          <div className=" flex flex-col justify-evenly gap-4 flex-wrap md:flex-row">
             <Avatar_information
               icono={"https://i.postimg.cc/L4J3WHMc/image.png"}
-              nombre={"Wilgrey Ravelo Cruz"}
+              nombre={"Wilgrey"}
               cargo={"Desarrollador full stack"}
             ></Avatar_information>
 
             <Avatar_information
               icono={"https://i.postimg.cc/L4J3WHMc/image.png"}
-              nombre={"Wilgrey Ravelo Cruz"}
-              cargo={"Desarrollador full stack"}
+              nombre={"Marcelo"}
+              cargo={"Gerente de ventas y contabilidad"}
             ></Avatar_information>
 
             <Avatar_information
               icono={"https://i.postimg.cc/L4J3WHMc/image.png"}
-              nombre={"Wilgrey Ravelo Cruz"}
-              cargo={"Desarrollador full stack"}
+              nombre={"Carlos"}
+              cargo={"Tecnico de reparacion en jefe"}
             ></Avatar_information>
 
             <Avatar_information
               icono={"https://i.postimg.cc/L4J3WHMc/image.png"}
-              nombre={"Wilgrey Ravelo Cruz"}
-              cargo={"Desarrollador full stack"}
-            ></Avatar_information>
-
-            <Avatar_information
-              icono={"https://i.postimg.cc/L4J3WHMc/image.png"}
-              nombre={"Wilgrey Ravelo Cruz"}
+              nombre={"Josue"}
               cargo={"Desarrollador full stack"}
             ></Avatar_information>
           </div>
