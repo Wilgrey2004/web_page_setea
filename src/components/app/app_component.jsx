@@ -13,7 +13,7 @@ export const App_component = () => {
       <Header_component></Header_component>
       <br />
       <Routes>
-        <Route path="/" element={<Home_page />} />
+        <Route path="/web_page_setea" element={<Home_page />} />
         <Route path="/servicios" element={<Services_page />} />
         <Route path="/contacto" element={<Contact_page />} />
         <Route path="/about" element={<About_page />} />

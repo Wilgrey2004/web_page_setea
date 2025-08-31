@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const Image_carrucel = () => {
   const [index_Image, setIndex_Image] = useState(0);
-  const [fade, setFade] = useState(true); // <- control de transición
+  const [fade, setFade] = useState(true);
 
   const list_images = [
     "https://i.postimg.cc/jqXJ21yd/image.png",
@@ -48,7 +48,7 @@ export const Image_carrucel = () => {
       <img
         src={list_images[index_Image]}
         alt="Imagen del carrusel"
-        className={`w-64 h-64 object-cover rounded-lg shadow-2xl shadow-blue-100 transition-opacity duration-300 ${
+        className={`w-10/12 h-64 object-cover rounded-lg shadow-xl shadow-blue-100 transition-opacity duration-300 ${
           fade ? "opacity-100" : "opacity-0"
         }`}
       />

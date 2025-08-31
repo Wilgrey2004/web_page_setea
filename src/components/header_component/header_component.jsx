@@ -20,7 +20,7 @@ const Header_component = () => {
   `;
 
   const menuItems = [
-    { name: "Inicio", path: "/" },
+    { name: "Inicio", path: "/web_page_setea" },
     { name: "Servicios", path: "/servicios" },
     { name: "Contacto", path: "/contacto" },
     { name: "Sobre nosotros", path: "/about" },
