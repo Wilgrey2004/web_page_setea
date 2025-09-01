@@ -5,4 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "https://wilgrey2004.github.io/web_page_setea",
+  server: {
+    historyApiFallback: true, // ⚡ para que las rutas siempre apunten a index.html
+  },
 });
