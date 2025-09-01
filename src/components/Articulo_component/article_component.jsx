@@ -11,7 +11,9 @@ export const Article_component = ({
         texto={titulo_texto}
         remate={titulo_remate}
       ></Title_Component>
-      <p className="text-balance">{contenido_parrafo}</p>
+      <p className="text-center bg-azul-vibrante p-4 rounded-2xl">
+        {contenido_parrafo}
+      </p>
     </div>
   );
 };

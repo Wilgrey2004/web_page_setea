@@ -1,7 +1,7 @@
 import React from "react";
-import locoInstagram from "../../../public/instagrame_ico.svg";
-import logowhatsapp from "../../../public/brand-whatsapp.svg";
-import logolocation from "../../../public/map-pin.svg";
+import mapIcon from "../../assets/map-pin.svg";
+import whattIcon from "../../assets/brand-whatsapp.svg";
+import instaIcon from "../../assets/instagrame_ico.svg";
 export const Footer_component = () => {
   return (
     <footer className="w-screen   bg-azul-claro p-10 mt-10 rounded-tl-2xl">
@@ -13,7 +13,7 @@ export const Footer_component = () => {
         <div className="flex">
           <a href="https://www.instagram.com/setea_oficial/" target="_blank">
             <img
-              src={locoInstagram}
+              src={instaIcon}
               alt="intagrame ico"
               className="w-10 shawow-xl"
             />
@@ -24,18 +24,14 @@ export const Footer_component = () => {
             target="_blank"
           >
             <img
-              src={logowhatsapp}
+              src={whattIcon}
               alt="intagrame ico"
               className="w-10 shawow-xl"
             />
           </a>
 
-          <a href="https://maps.app.goo.gl/HpfQy7WZFPFwCkUB7" target="_blank">
-            <img
-              src={logolocation}
-              alt="intagrame ico"
-              className="w-10 shawow-xl"
-            />
+          <a href="https://maps.app.goo.gl/1D6wx7bt3Qgc5cqQA" target="_blank">
+            <img src={mapIcon} alt="intagrame ico" className="w-10 shawow-xl" />
           </a>
         </div>
         <p className="font-bold">

@@ -30,7 +30,7 @@ const Header_component = () => {
     <div className="w-full">
       <header className={headerClasses}>
         <nav className={navClasses}>
-          <h1 className="text-blue-500 text-xl font-bold">S.E.T.A</h1>
+          <h1 className="text-blue-500 text-xl font-bold">S.E.T.E.A</h1>
           <ul className="flex flex-col space-y-2 md:space-x-4 md:flex-row">
             {menuItems.map((item) => {
               const isActive = location.pathname === item.path;
