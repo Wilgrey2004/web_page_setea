@@ -21,9 +21,9 @@ const Header_component = () => {
 
   const menuItems = [
     { name: "Inicio", path: "/web_page_setea" },
-    { name: "Servicios", path: "/servicios" },
-    { name: "Contacto", path: "/contacto" },
-    { name: "Sobre nosotros", path: "/about" },
+    { name: "Servicios", path: "/web_page_setea/servicios" },
+    { name: "Contacto", path: "/web_page_setea/contacto" },
+    { name: "Sobre nosotros", path: "/web_page_setea/about" },
   ];
 
   return (

@@ -14,9 +14,9 @@ export const App_component = () => {
       <br />
       <Routes>
         <Route path="/web_page_setea" element={<Home_page />} />
-        <Route path="/servicios" element={<Services_page />} />
-        <Route path="/contacto" element={<Contact_page />} />
-        <Route path="/about" element={<About_page />} />
+        <Route path="/web_page_setea/servicios" element={<Services_page />} />
+        <Route path="/web_page_setea/contacto" element={<Contact_page />} />
+        <Route path="/web_page_setea/about" element={<About_page />} />
       </Routes>
       <Footer_component></Footer_component>
     </>
